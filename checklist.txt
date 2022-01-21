@@ -1,0 +1,44 @@
+Go to settings -> updates and security -> windows update -> check for updates
+Search up “windows firewall” -> turn windows firewall on or off -> make sure that they are both on
+Windows + R “secpol.msc” to view Security Policies
+Password policies
+Password history - 7
+Maximum age - 90 or 99
+Minimum age - ~15
+Password length - 10 characters (or try 8)
+Complexity requirements - enable
+Store passwords - disable
+Account lockout policy
+Lockout threshold - between 5 and 10
+Local policies
+Audit policy - success and failure for all
+User rights assignment - make sure that guest and default administrator accounts are disabled - also enable “Require ctrl + alt + delete at startup”
+Settings -> remote desktop settings - if CP doesn’t say anything about RDP, disable it
+A good password to change it to is “CyberPatriot14”
+Windows Security -> Virus and Threat Protection -> Quick Scan
+Download latest Firefox and Notepad++ (just search up both of those words and download latest release)
+Or open Firefox -> options -> check for updates (also go to privacy and security settings, make sure everything is good (clear cookies, etc.))
+Change to “strict”
+“Do not track”
+Clear cookies
+Turn off autofill logins and passwords
+Block pop-up windows
+Warn you when… (right below Block pop-up windows)
+Block dangerous and deceptive content
+Warn about… (right below previous item)
+Computer Management -> Shared folders -> Shares -> stop sharing for all (right click + stop sharing)
+Stop sharing for all drives except ADMIN$ - C:\\Windows, C$ - C:\, IPC$
+Media Files - go to Local Disk (C:) - “Search in Local Disc” and then search “*.mp3, *.mp4, *.avi, *.mov” (right click, go to file location, delete) - * removes system files from results
+Suspicious files - will either be in the first folder when you open (C:) or in Program Files - delete all hacking tools (TeamViewer, iTunes, CCleaner, etc. - non-work-related stuff
+Don’t change the account you’re currently logged in as’s password
+You can copy and paste the authorized users and passwords into a Notepad document and just ctrl + F users you’re unsure of
+Change normal users who are admin to just normal users
+Apps + features -> scroll down “Programs and Features” -> Turn windows features on or off -> Internet information services - turn FTP off
+Start - control panel - programs - turn windows features on or off - “Simple TCPIP services” - uncheck or services.msc - turn off tcpip and ftp
+Control panel - programs and features - programs - remove any hacking programs (hashcat) or games (steam)
+DELETE STUFF FROM RECYCLING BIN AS WELL!
+Computer management - shared folders - right click and stop sharing for all unless specified - MAKE SURE TO WRITE DOWN DIRECTORY OF SHARED FOLDERS THAT HAVE BEEN STOPPED IN CASE YOU NEED TO ADD THEM AGAIN
+Install Chrome and turn on “HTTPS required” (or something like that) - chrome settings - privacy and security - security - always use secure connections
+Show hidden files -> click “show settings”  -> click “Show hidden files, folders, and drives” - hidden files will have transparent icons - do this first
+netstat -ab - scroll through list and look for suspicious files, use next command to find them
+dir secret.doc /s /p (replace secret.doc with whatever you want) - finds a file (WindowsRAT, maybe Netplwiz.exe)
