@@ -1,0 +1,5 @@
+https://security.uri.edu/files/CIS_Microsoft_Windows_10_Enterprise_Release_1511_Benchmark_v1.1.0.pdf
+http://www.lacapnm.org/Cadets/STEM/CyberPatriot/SeasonVIII/CyberPatriot_Windows_CheckList.pdf
+https://helpdeskgeek.com/help-desk/21-cmd-commands-all-windows-users-should-know/
+https://drive.google.com/file/d/1fiq7gjYNz76jxli0WmUwBdsOr5sNzgbF/view
+https://www.securicy.com/blog/security-best-practices-hardening-windows-10/#auto-login
